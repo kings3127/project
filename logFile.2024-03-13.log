@@ -1,0 +1,32 @@
+2024-03-13 09:05:31,709 [INFO] [com.example.project.ProjectApplication] [restartedMain] Starting ProjectApplication using Java 21.0.2 with PID 17456 (C:\Users\kings\OneDrive\Desktop\review\project\target\classes started by kings in C:\Users\kings\OneDrive\Desktop\review\project) 
+2024-03-13 09:05:31,709 [INFO] [com.example.project.ProjectApplication] [restartedMain] No active profile set, falling back to 1 default profile: "default" 
+2024-03-13 09:05:31,826 [INFO] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-03-13 09:05:31,826 [INFO] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-03-13 09:05:33,235 [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-03-13 09:05:33,340 [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] Finished Spring Data repository scanning in 97 ms. Found 3 JPA repository interfaces. 
+2024-03-13 09:05:34,520 [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] Tomcat initialized with port 8081 (http) 
+2024-03-13 09:05:34,541 [INFO] [org.apache.coyote.http11.Http11NioProtocol] [restartedMain] Initializing ProtocolHandler ["http-nio-8081"] 
+2024-03-13 09:05:34,541 [INFO] [org.apache.catalina.core.StandardService] [restartedMain] Starting service [Tomcat] 
+2024-03-13 09:05:34,541 [INFO] [org.apache.catalina.core.StandardEngine] [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.19] 
+2024-03-13 09:05:34,644 [INFO] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [restartedMain] Initializing Spring embedded WebApplicationContext 
+2024-03-13 09:05:34,644 [INFO] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] Root WebApplicationContext: initialization completed in 2818 ms 
+2024-03-13 09:05:34,979 [INFO] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-03-13 09:05:35,132 [INFO] [org.hibernate.Version] [restartedMain] HHH000412: Hibernate ORM core version 6.4.4.Final 
+2024-03-13 09:05:35,207 [INFO] [org.hibernate.cache.internal.RegionFactoryInitiator] [restartedMain] HHH000026: Second-level cache disabled 
+2024-03-13 09:05:35,673 [INFO] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-03-13 09:05:35,723 [INFO] [com.zaxxer.hikari.HikariDataSource] [restartedMain] HikariPool-1 - Starting... 
+2024-03-13 09:05:36,325 [INFO] [com.zaxxer.hikari.pool.HikariPool] [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f1c6af4 
+2024-03-13 09:05:36,325 [INFO] [com.zaxxer.hikari.HikariDataSource] [restartedMain] HikariPool-1 - Start completed. 
+2024-03-13 09:05:37,873 [INFO] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-03-13 09:05:38,016 [INFO] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-03-13 09:05:38,763 [INFO] [org.springframework.data.jpa.repository.query.QueryEnhancerFactory] [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used. 
+2024-03-13 09:05:39,822 [WARN] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-03-13 09:05:40,611 [INFO] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] LiveReload server is running on port 35729 
+2024-03-13 09:05:40,639 [INFO] [org.apache.coyote.http11.Http11NioProtocol] [restartedMain] Starting ProtocolHandler ["http-nio-8081"] 
+2024-03-13 09:05:40,678 [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] Tomcat started on port 8081 (http) with context path '' 
+2024-03-13 09:05:40,706 [INFO] [com.example.project.ProjectApplication] [restartedMain] Started ProjectApplication in 9.672 seconds (process running for 10.79) 
+2024-03-13 09:06:03,472 [INFO] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [File Watcher] Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications) 
+2024-03-13 09:06:03,478 [INFO] [org.apache.coyote.http11.Http11NioProtocol] [Thread-5] Stopping ProtocolHandler ["http-nio-8081"] 
+2024-03-13 09:06:03,483 [INFO] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-03-13 09:06:03,489 [INFO] [com.zaxxer.hikari.HikariDataSource] [Thread-5] HikariPool-1 - Shutdown initiated... 
+2024-03-13 09:06:03,500 [INFO] [com.zaxxer.hikari.HikariDataSource] [Thread-5] HikariPool-1 - Shutdown completed. 

@@ -16,5 +16,4 @@ public class VendorService {
     {
         return vendorRepo.save(vendorModel);
     }
-    
 }

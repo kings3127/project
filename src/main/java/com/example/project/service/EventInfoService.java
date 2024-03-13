@@ -22,9 +22,5 @@ public class EventInfoService {
     {
         return eventInfoRepo.findAll();
     }
-    // //pagination
-    // public Page<EventInfo> pagination(int offset,int pagesize)
-    // {
-    //         return eventInfoRepo.findAll(PageRequest.of(offset, pagesize));
-    // }
+
 }

@@ -1,6 +1,4 @@
 package com.example.project.service;
-
-import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
@@ -15,7 +13,6 @@ public class EventService {
     public EventService(EventRepo eventRepo) {
         this.eventRepo = eventRepo;
     }
-
     //POST:
     public Event posting(Event event)
     {
@@ -37,10 +34,9 @@ public class EventService {
     {
             return eventRepo.findAll(PageRequest.of(offset, pagesize)).getContent();
     }
-
     //sort
     public List<Event> sort(String field)
     {
-        return eventRepo.findAll(Sort.by(Sort.Direction.ASC,field));
+        return eventRepo.findAll(Sort.by(Sort.Direction.DESC,field));       
     }
 }
